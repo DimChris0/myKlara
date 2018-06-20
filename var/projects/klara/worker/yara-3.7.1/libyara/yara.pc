@@ -1,0 +1,13 @@
+prefix=/opt/yara-3.7.1
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=${exec_prefix}/lib
+
+Name: yara
+Description: YARA library
+URL: https://virustotal.github.io/yara/
+Version: 3.7.1
+Requires.private:  jansson libcrypto
+Cflags: -I${includedir}
+Libs: -L${libdir} -lyara
+Libs.private:  -lmagic 

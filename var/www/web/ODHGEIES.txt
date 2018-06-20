@@ -1,0 +1,18 @@
+meta apo tis odhgeies gia egkatastash eprepe na kanw kai
+sudo apt-get install libapache2-mod-php gia na mporesei o browser
+na fortwsei tin php
+
+gia na epikoinwnhsei o worker p exw se windows VM me ton dispatcher
+p exw se ubuntu VM akolouthisa auto:
+
+www.techexams.net/forums/off-topic/69447-guide-connecting-2-vmware-maschines.html
+
+Opote meta allaksa thn grammi sto config file tou worker
+pou leei api location se http://192.168.110.128:8888/api
+kai mporese na dei to ena to allo
+
+TO BE FIXED:
+eprepe gia na dexete to path pou tha kanei scan
+na exei sth bash o sygkekrimenos user "ekgrish" gia na mporei na to kanei
+
+ebala ston pinaka jobs epipleon column job_type int(2)
