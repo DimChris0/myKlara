@@ -13,3 +13,9 @@ has root privileges over the clients.
 
 Now we also can do an 'ls' or 'dir' on any given path, if the repository_control
 exists as well as MD5 of all files under a certain given path.
+
+The two folders in this repo can and must override the standard folder created
+by the installation of the Klara project in order for the updates to take place.
+Move with caution pay heed for any misconfiguration that may result in not
+working properly. Read the docs carefully and adjust the configs even of my
+file to cover your needs.
